@@ -1,0 +1,5 @@
+{
+    "python.linting.mypyPath": "./.venv/bin/mypy",
+    "python.linting.mypyEnabled": true,
+    "mypy.dmypyExecutable": ".venv/bin/dmypy"
+}

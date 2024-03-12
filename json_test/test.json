@@ -1,0 +1,72 @@
+{
+  "share": {
+    "pool_size": 14,
+    "stride": 16,
+    "anc_scales": [
+      64,
+      128,
+      256
+    ],
+    "anc_ratios": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "input_img_min_size": 600,
+    "image_channel_mean": [
+      123.68,
+      116.779,
+      103.939
+    ],
+    "image_channel_std": 1.0,
+    "rpn_std_scaling": 4.0,
+    "rpn_reg_mean": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rpn_reg_std": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "roi_reg_mean": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "roi_reg_std": [
+      0.1,
+      0.1,
+      0.2,
+      0.2
+    ],
+    "label_mapping": null
+  },
+  "train": {
+    "rpn_max_iou": 0.7,
+    "rpn_min_iou": 0.3,
+    "roi_max_iou": 0.5,
+    "roi_min_iou": 0.1,
+    "num_use_rois": 64,
+    "nms_iou": 0.7,
+    "num_nms_boxes": 2000
+  },
+  "test": {
+    "nms_iou": 0.7,
+    "num_use_rois": 300,
+    "test_nms_boxes": 300
+  }
+}

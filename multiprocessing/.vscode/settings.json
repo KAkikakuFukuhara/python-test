@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "/home/fuku01/anaconda3/envs/tfpy37rs/bin/python",
+    "python.linting.pylintArgs": [
+        "--extension-pkg-whitelist=cv2, pyrealsense2"
+    ]
+}

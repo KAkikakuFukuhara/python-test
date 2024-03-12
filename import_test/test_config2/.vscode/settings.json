@@ -1,0 +1,8 @@
+{
+    "python.autoComplete.extraPaths": [
+        "project1"
+    ],
+    "python.analysis.extraPaths": [
+        "project1"
+    ]
+}
