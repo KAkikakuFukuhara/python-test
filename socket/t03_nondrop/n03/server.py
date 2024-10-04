@@ -50,6 +50,5 @@ if __name__ == '__main__':
             finally:
                 child_socket.close()
                 print("close socket")
-
     except KeyboardInterrupt:
         pass
