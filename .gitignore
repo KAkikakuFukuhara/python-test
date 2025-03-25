@@ -21,3 +21,4 @@ poetry.lock
 *.pickle
 *.hdf5
 *.h5
+*.xml
